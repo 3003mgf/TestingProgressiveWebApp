@@ -1,0 +1,106 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgba(240, 219, 79, .5);
+    color: #2B2B2B;
+}
+ 
+*,
+*:after,
+*:before{
+    box-sizing: inherit;
+}
+ 
+body{
+   overflow-x: hidden;
+   margin: 2rem auto;
+   max-width: 800px;
+}
+ 
+ 
+ p{
+    padding: 1rem;
+    font-size: 1.25rem;
+ }
+ 
+ 
+  
+  a{
+    color: #2B2B2B;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: bold;
+    font-size: xx-large;
+  }
+
+  /* .i{
+    margin-right: 2rem;
+  } */
+
+  a:hover{
+    color: #d87093;
+  }
+
+ 
+  header {
+    
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+ .header h1{
+    word-wrap: break-word;
+    transition: all 0.3s ease;
+    width: fit-content;
+    padding: 1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+
+ .header h1:hover{
+    background-color: #2B2B2B;
+    color: #F0DB4F;
+    transition: all 0.3s ease-in-out;
+    
+ }
+ .div{
+    background-color: #F0DB4F;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .header img{
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;
+ }
+
+ .header nav{
+    display: flex;
+    padding: 2rem 0;
+    justify-content: space-evenly;
+
+ }
+
+ .main{
+    position: relative;
+    margin: 0;
+    padding-bottom: 56.25%; /*16.:9*/ /* Para que un video de Youtube se vean en una resolucion wide-screen, el formato seria 16:9, pero 56.25% (el  formato  widescreen), podemos posicionar el iframe de manera absoluta*/
+ }
+
+ .main iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ }
+  
